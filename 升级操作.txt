@@ -1,0 +1,4 @@
+1、进入到项目目录
+2、执行npm install --save-exact @deepseek-ai/dsh@0.2.2-rc.1命令
+3、修改dockerfile文件里面的版本号
+4、检查命令grep -n '"@deepseek-ai/dsh"' package.json package-lock.json
